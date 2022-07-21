@@ -8,17 +8,41 @@
 
 /* Begin PBXBuildFile section */
 		044FC562288129490065FE8A /* OrangeTestApp_App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC561288129490065FE8A /* OrangeTestApp_App.swift */; };
-		044FC564288129490065FE8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC563288129490065FE8A /* ContentView.swift */; };
-		044FC5662881294B0065FE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FC5652881294B0065FE8A /* Assets.xcassets */; };
 		044FC5692881294B0065FE8A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FC5682881294B0065FE8A /* Preview Assets.xcassets */; };
+		044FC572288129AB0065FE8A /* Rocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC570288129AB0065FE8A /* Rocket.swift */; };
+		044FC573288129AB0065FE8A /* Launch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC571288129AB0065FE8A /* Launch.swift */; };
+		044FC577288129BA0065FE8A /* AppSidebarNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC575288129BA0065FE8A /* AppSidebarNavigation.swift */; };
+		044FC578288129BA0065FE8A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC576288129BA0065FE8A /* ContentView.swift */; };
+		044FC57C288129C70065FE8A /* ClickableDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC57A288129C70065FE8A /* ClickableDate.swift */; };
+		044FC57D288129C70065FE8A /* LaunchRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC57B288129C70065FE8A /* LaunchRow.swift */; };
+		044FC581288129CF0065FE8A /* LaunchDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC57F288129CF0065FE8A /* LaunchDetailView.swift */; };
+		044FC582288129CF0065FE8A /* LaunchesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC580288129CF0065FE8A /* LaunchesView.swift */; };
+		044FC58928812A130065FE8A /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC58328812A130065FE8A /* API.swift */; };
+		044FC58A28812A130065FE8A /* Store.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC58428812A130065FE8A /* Store.swift */; };
+		044FC58B28812A130065FE8A /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC58528812A130065FE8A /* Utils.swift */; };
+		044FC58D28812A130065FE8A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 044FC58728812A130065FE8A /* Assets.xcassets */; };
+		044FC58E28812A130065FE8A /* LaunchesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 044FC58828812A130065FE8A /* LaunchesViewModel.swift */; };
+		044FC59428812B0F0065FE8A /* YouTubePlayerKit in Frameworks */ = {isa = PBXBuildFile; productRef = 044FC59328812B0F0065FE8A /* YouTubePlayerKit */; };
+		044FC59A28812DEF0065FE8A /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 044FC59928812DEF0065FE8A /* Kingfisher */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		044FC55E288129490065FE8A /* OrangeTestApp\.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OrangeTestApp\\.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		044FC561288129490065FE8A /* OrangeTestApp_App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeTestApp_App.swift; sourceTree = "<group>"; };
-		044FC563288129490065FE8A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		044FC5652881294B0065FE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		044FC5682881294B0065FE8A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		044FC570288129AB0065FE8A /* Rocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Rocket.swift; sourceTree = "<group>"; };
+		044FC571288129AB0065FE8A /* Launch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Launch.swift; sourceTree = "<group>"; };
+		044FC575288129BA0065FE8A /* AppSidebarNavigation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSidebarNavigation.swift; sourceTree = "<group>"; };
+		044FC576288129BA0065FE8A /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		044FC57A288129C70065FE8A /* ClickableDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClickableDate.swift; sourceTree = "<group>"; };
+		044FC57B288129C70065FE8A /* LaunchRow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchRow.swift; sourceTree = "<group>"; };
+		044FC57F288129CF0065FE8A /* LaunchDetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchDetailView.swift; sourceTree = "<group>"; };
+		044FC580288129CF0065FE8A /* LaunchesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchesView.swift; sourceTree = "<group>"; };
+		044FC58328812A130065FE8A /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		044FC58428812A130065FE8A /* Store.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Store.swift; sourceTree = "<group>"; };
+		044FC58528812A130065FE8A /* Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		044FC58728812A130065FE8A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		044FC58828812A130065FE8A /* LaunchesViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaunchesViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +50,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044FC59A28812DEF0065FE8A /* Kingfisher in Frameworks */,
+				044FC59428812B0F0065FE8A /* YouTubePlayerKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +77,16 @@
 		044FC560288129490065FE8A /* OrangeTestApp\ */ = {
 			isa = PBXGroup;
 			children = (
+				044FC58328812A130065FE8A /* API.swift */,
+				044FC58728812A130065FE8A /* Assets.xcassets */,
+				044FC58828812A130065FE8A /* LaunchesViewModel.swift */,
+				044FC58428812A130065FE8A /* Store.swift */,
+				044FC58528812A130065FE8A /* Utils.swift */,
+				044FC57E288129CF0065FE8A /* Views */,
+				044FC579288129C70065FE8A /* Components */,
+				044FC574288129BA0065FE8A /* Navigation */,
+				044FC56F288129AB0065FE8A /* Models */,
 				044FC561288129490065FE8A /* OrangeTestApp_App.swift */,
-				044FC563288129490065FE8A /* ContentView.swift */,
-				044FC5652881294B0065FE8A /* Assets.xcassets */,
 				044FC5672881294B0065FE8A /* Preview Content */,
 			);
 			path = "OrangeTestApp\\";
@@ -65,6 +98,42 @@
 				044FC5682881294B0065FE8A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		044FC56F288129AB0065FE8A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				044FC570288129AB0065FE8A /* Rocket.swift */,
+				044FC571288129AB0065FE8A /* Launch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		044FC574288129BA0065FE8A /* Navigation */ = {
+			isa = PBXGroup;
+			children = (
+				044FC575288129BA0065FE8A /* AppSidebarNavigation.swift */,
+				044FC576288129BA0065FE8A /* ContentView.swift */,
+			);
+			path = Navigation;
+			sourceTree = "<group>";
+		};
+		044FC579288129C70065FE8A /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				044FC57A288129C70065FE8A /* ClickableDate.swift */,
+				044FC57B288129C70065FE8A /* LaunchRow.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		044FC57E288129CF0065FE8A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				044FC57F288129CF0065FE8A /* LaunchDetailView.swift */,
+				044FC580288129CF0065FE8A /* LaunchesView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +152,10 @@
 			dependencies = (
 			);
 			name = "OrangeTestApp\\";
+			packageProductDependencies = (
+				044FC59328812B0F0065FE8A /* YouTubePlayerKit */,
+				044FC59928812DEF0065FE8A /* Kingfisher */,
+			);
 			productName = "OrangeTestApp\\";
 			productReference = 044FC55E288129490065FE8A /* OrangeTestApp\.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +184,12 @@
 				Base,
 			);
 			mainGroup = 044FC555288129490065FE8A;
+			packageReferences = (
+				044FC58F28812AEE0065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				044FC59228812B0F0065FE8A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */,
+				044FC59528812D170065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				044FC59828812DEF0065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 044FC55F288129490065FE8A /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,8 +204,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044FC58D28812A130065FE8A /* Assets.xcassets in Resources */,
 				044FC5692881294B0065FE8A /* Preview Assets.xcassets in Resources */,
-				044FC5662881294B0065FE8A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +216,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				044FC564288129490065FE8A /* ContentView.swift in Sources */,
+				044FC572288129AB0065FE8A /* Rocket.swift in Sources */,
+				044FC57C288129C70065FE8A /* ClickableDate.swift in Sources */,
+				044FC58E28812A130065FE8A /* LaunchesViewModel.swift in Sources */,
+				044FC582288129CF0065FE8A /* LaunchesView.swift in Sources */,
+				044FC581288129CF0065FE8A /* LaunchDetailView.swift in Sources */,
+				044FC58928812A130065FE8A /* API.swift in Sources */,
+				044FC578288129BA0065FE8A /* ContentView.swift in Sources */,
+				044FC58A28812A130065FE8A /* Store.swift in Sources */,
+				044FC573288129AB0065FE8A /* Launch.swift in Sources */,
+				044FC57D288129C70065FE8A /* LaunchRow.swift in Sources */,
+				044FC577288129BA0065FE8A /* AppSidebarNavigation.swift in Sources */,
 				044FC562288129490065FE8A /* OrangeTestApp_App.swift in Sources */,
+				044FC58B28812A130065FE8A /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -337,6 +427,54 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		044FC58F28812AEE0065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		044FC59228812B0F0065FE8A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SvenTiigi/YouTubePlayerKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.0;
+			};
+		};
+		044FC59528812D170065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.15.3;
+			};
+		};
+		044FC59828812DEF0065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = exactVersion;
+				version = 5.15.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		044FC59328812B0F0065FE8A /* YouTubePlayerKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044FC59228812B0F0065FE8A /* XCRemoteSwiftPackageReference "YouTubePlayerKit" */;
+			productName = YouTubePlayerKit;
+		};
+		044FC59928812DEF0065FE8A /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 044FC59828812DEF0065FE8A /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 044FC556288129490065FE8A /* Project object */;
 }
